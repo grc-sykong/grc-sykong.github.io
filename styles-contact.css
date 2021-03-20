@@ -27,13 +27,14 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.2;
 }
 ol, ul {
 	list-style: none;
@@ -69,15 +70,18 @@ html, body {
 
 .center {
     width: 800px;
-	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(46, 178, 230, 0.4); /*this uses opacity of 75% for the background color*/
+	padding: 4%;
+    margin: 150px auto;
+ 	background: rgba(13, 139, 220, 1); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 8px double lavender;
+	border: lavender;
+    border-radius: 50%;
 }
    
 #logo {
 	text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -91,8 +95,8 @@ h1 {
 
 h2 {
 	font-family: didot, serif;
-	font-size: 1.5em;
-    line-height: 1.4;
+	font-size: 1.4em;
+    line-height: 1;
     color: #fff;
     padding: 0px 0px;
     margin: 0px auto 10px auto;
@@ -101,7 +105,7 @@ h2 {
 p {
 	font-family: didot, serif;
 	font-size: 1.2em;
-    line-height: 1.6;
+    line-height: .8;
     color: #fff;
 }
 
@@ -109,13 +113,13 @@ nav{
     font-family: bely-display, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.2em;
-    width: 300px;
+    font-size: 1.25em;
+    width: 500px;
     margin: 0 auto;
-    border: double skyblue;
+    border: skyblue;
     border-width: 3px 0;
     text-align: center;
-    margin-top: 1em;
+    margin-top: .9em;
     }
     
 nav li{
@@ -128,11 +132,11 @@ nav a{
     }
 
 a{
-    color:#444;
+    color:darkblue;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
     }
 a:hover{
     color:lavenderblush;
-    background:lavender;
+    background:skyblue;
     }
