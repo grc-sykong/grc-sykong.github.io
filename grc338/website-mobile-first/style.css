@@ -1,0 +1,126 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; 
+    display: block; 
+}
+
+body {
+    background-color: #fafafa;
+    color: rgb(28, 24, 20);
+    line-height: 300%;
+    font-family: chantal;
+}
+
+nav ul li {
+    display: inline
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-family: chantal;
+    font-size: 1.5em;
+    padding: 1em 1em 1em;
+}
+
+h1 {
+    width: 15em;
+}
+
+h2 {
+	background-color: #E34A6F;
+	color: #F7B2BD;
+	font-size: 3.5rem;
+	padding: 0.6em 0.7em 0.6em;
+	font-family: chantal;
+    font-weight: 300;
+	font-style: normal;
+}
+
+h3 {
+	padding: 1em 2em 1em;
+	font-size: 1.1em;
+    line-height: 1.5em;
+    background-color: #60A561;
+	color: white;
+    font-family: serenity light;
+    font-weight: 400;
+	font-style: normal;
+	letter-spacing: 0.1em;
+}
+
+h4 {
+    font-family: chantal;
+    font-size: 1.7em;
+    padding: 1em 1.2em 1em;
+    background-color: #053225;
+    color: white;
+}
+
+h5 {
+    font-family: serenity medium;
+    font-size: 1.7em;
+    padding: 0.6em 1em 0.6em;
+    text-transform: uppercase;
+    background-color: #fafafa;
+}
+
+h6 {
+    font-family: serenity light;
+    font-size: 1.5em;
+    padding: 0.2em 1.2em 0.2em;
+    line-height: 1.5em;
+    background-color: #fafafa;
+}
+
+address {
+    font-family: serenity light;
+    font-size: 0.8em;
+    padding: 0.3em 0.2em 0.3em;
+    line-height: 1.3em;
+}
+
+figcaption {
+    font-family: serenity medium;
+    font-weight: 400;
+    font-style: italic;
+    padding: 0.5em 2em 0.5em;
+    background-color: #fafafa;
+}
+
+ul {
+    font-family: serenity medium;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    margin: 0.5em 0.5em 0.5em;
+}
+
+ol { 
+	font-family: serenity medium;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    padding: 0.3rem 0.3rem 0.3rem;
+}
+
+li {
+    display: list-item;
+    line-height: 1.6rem;
+    font-size: 0.8em;
+    font-family: serenity medium;
+}
+
+p {
+    font-family: serenity light;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-style: italic;
+    padding: 0.8em 1.2em 0.8em;
+    background-color: #fafafa;
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
