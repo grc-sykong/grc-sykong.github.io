@@ -1,0 +1,42 @@
+/*CSS document*/
+
+body{
+    font-family: "neuzeit-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#e6d9cd ;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-family: "forma-djr-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3{
+    font-family: "forma-djr-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
