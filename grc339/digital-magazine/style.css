@@ -10,6 +10,7 @@ body{
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin-left: 1em;
     font-family: "forma-djr-text", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -25,6 +26,7 @@ h1{
     font-family: "forma-djr-text", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-left: 1em;
 }
 
 h2{
@@ -59,7 +61,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #333;
 }
 
 /* section.tertiary {
@@ -229,4 +231,30 @@ textarea {
     
     div.photogallery input {
         display: none;
+    }
+
+
+
+    @media screen and (prefers-color-scheme:dark){
+        body{
+            background-color: #333;
+            color:#e6d9cd;
+        }
+        h1{
+            background-image: url("TheRevivallogo-alt.png");
+            background-repeat:no-repeat;
+            background-size: contain;
+        }
+        h1 img{
+            opacity: 0;
+        }
+        h2,h3{
+            color:#e6d9cd;
+        }
+        p{
+            color: #e6d9cd;
+        }
+        a{
+            color: #e6d9cd;
+        }
     }
